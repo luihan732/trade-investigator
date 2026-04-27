@@ -99,7 +99,7 @@ Raw FIFO output gives you 6,232 matched trades. But many of those trades are par
 
 A React-based interface for browsing all 1,463 entry decisions with filtering, sorting, and a detail panel that shows the full behavioral decomposition for any selected trade. The dashboard view overlays the actual equity curve against the filtered (3-flag rule applied) equity curve.
 
-![Detail Panel](screenshots/detail_panel.png)
+![Detail Panel](screenshots/table_view.png)
 
 ---
 
