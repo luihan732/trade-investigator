@@ -60,18 +60,23 @@ When 3+ flags were active simultaneously, those entries produced −$6,472 in ag
 ```
 trade-investigator/
 ├── engine/
+│   ├── __init__.py
 │   ├── fifo_engine.py       ← FIFO matching with proportional queue consumption
 │   ├── investigator.py      ← Entry-decision decomposition & behavioral flags
 │   ├── analysis.py          ← Holding-period, time-of-day, and summary analytics
 │   └── example_analysis.py  ← Runnable: loads sample data → full pipeline → results
 ├── explorer/
-│   └── trade_explorer.jsx   ← Interactive React visualization (see screenshots)
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── index.html
+│   ├── sample_data.json
+│   └── src/
+│       └── TradeExplorer.jsx ← Interactive React visualization (see screenshots)
 ├── data/
 │   └── sample_trades.csv    ← 100 anonymized trades for demonstration
 ├── screenshots/
 │   ├── dashboard.png
-│   ├── detail_panel.png
-│   └── equity_curve.png
+│   └── table_view.png
 └── requirements.txt
 ```
 
